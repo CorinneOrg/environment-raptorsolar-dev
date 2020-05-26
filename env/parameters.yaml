@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:raptorsolar/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:raptorsolar/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:raptorsolar/prow:hmacToken
+segmentWriteKey: vault:raptorsolar:segmentWriteKey
